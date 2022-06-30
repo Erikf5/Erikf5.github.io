@@ -1,0 +1,127 @@
+@charset "utf-8";
+.Flex-container {
+    display: flex;
+    width: 80%;
+    background-color: hsla(212,92%,64%,1.00);
+}
+.Flex-container div {
+    margin: 20px;
+    padding: 20px;
+    background-color: hsla(197,100%,90%,1.00);
+    font-size: 25px;
+}
+.flex-direction_box {
+    flex-direction: column;
+}
+.flex-wrap-box {
+    flex-wrap: wrap;
+}
+.box_size {
+    width: 100px;
+}
+.flex-justify-box {
+    justify-content: center;
+}
+.box_size_two {
+    width: 500px;
+    text-align: center;
+}
+.flex-justify-box-2 {
+    justify-content: space-around;
+}
+.flex-container-size {
+    height: 300px;
+}
+.box_size_three {
+    height: 100px;
+    width: 100px;
+}
+.aling_vertical {
+    align-items: center;
+}
+.size_four {
+    height: 600px;
+}
+.aling_content_box2 {
+    align-content: space-between;
+}
+.box_center_perfect {
+    color: hsla(237,76%,30%,1.00);
+    width: 293px;
+    height: 296px;
+}
+.center_perfect {
+    justify-content: center;
+    align-items: center;
+    height: 597px;
+}
+.flex-conteiner-header {
+    display: flex;
+    height: 400px;
+    background-color: hsla(196,47%,23%,1.00);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.flex-conteiner-header h1 {
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 76px;
+    color: hsla(0,0%,100%,1.00);
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.flex-container-nav {
+    width: 100%;
+    display: flex;
+    background-color: hsla(219,100%,79%,1.00);
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex-container-nav div {
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 50px;
+}
+.flex-container-nav div a {
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.flex-container-main {
+    background-color: hsla(206,38%,40%,1.00);
+    color: hsla(0,0%,0%,1.00);
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+.flex-container-main section {
+    padding: 20px;
+    width: 80%;
+}
+.flex_modify {
+    height: 150px;
+    background-color: hsla(187,57%,66%,1.00);
+}
+.Flex-container.center_perfect .box_center_perfect img {
+    width: 100%;
+    height: auto;
+}

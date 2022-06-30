@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap&effect=fire');
+@import url("../webfonts/Louis_George_Cafe_Light/stylesheet.css");
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header,nav   ,main,footer{
+    width: 1024px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #6692FC;
+}
+main section {
+    margin: 20px auto;
+    width: 800px;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+#Tabla_2 {
+    width: 100%;
+    border-left-color: #F200FF;
+    border-right-color: #F200FF;
+    border-top-color: #F200FF;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-collapse: collapse;
+}
+#Tabla_2 thead tr th    , #Tabla_2 tbody td{
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: middle;
+    border: 3px solid #9E00DA;
+}
+
+
+
+header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    width: 700px;
+    margin: 75px auto;
+    height: auto;
+    font-family: lobster;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+#Tabla_2 tbody tr:nth-child(even)  {
+    background-color: #6091F9;
+}
+#Tabla_2 tbody tr:nth-child(odd) {
+    background-color: #FF7477;
+}
+#Tabla_2 thead tr {
+    background-color: #FC8EF7;
+}
+
+
+
+nav {
+    background-color: #90CDF3;
+    height: auto;
+}
+main {
+    height: auto;
+    background-color: #90BBEC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer {
+    padding: 10px 0;
+    height: 100px;
+}
+#img_enlace {
+    width: 300px;
+    height: 450px;
+}
+footer h5 {
+    color: #FFFFFF;
+    width: 300px;
+    margin: 40px auto;
+    height: 20px;
+    text-align: center;
+}
+#menu_Principal {
+    color: #C2DDFC;
+}
+#menu_Principal li a {
+    text-decoration: none;
+    border-radius: 20px;
+    color: #000000;
+}
+section p a:link  {
+    text-decoration: none;
+    color: #FF9023;
+    font-weight: bold;
+}
+
+section p a:hover {
+    color: #F800FF;
+    font-weight: bold;
+}
+section p a:visited {
+    color: #EC0C0C;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+#menu_Principal li a:link {
+    color: #3A16FF;
+}
+#menu_Principal li a:visited {
+    color: #020202;
+}
+#menu_Principal li a:hover {
+    color: #B60CFF;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsla(0,0%,100%,1.00);
+    width: 150px;
+    height: 30px;
+}
+#menu_Principal li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#tabla_3 {
+}
+#tabla_3 tbody tr td {
+    border-bottom: 2px solid #098B14;
+}
+#tabla_3 tbody tr:hover {
+    background-color: #D8C20B;
+}
+#tabla_4 {
+}
+#tabla_4 tbody tr td {
+    border-bottom: 5px groove #FFC00A;
+    border-right: 5px groove #FFBE00;
+    border-top: 5px groove #FFAB00;
+    border-left: 5px groove #FFD14B;
+}
+#tabla_4 thead tr th {
+    border: 5px groove #FF9D9F;
+}
+#tabla_4 thead tr th:hover {
+    background-color: #867FF7;
+}
+#tabla_4 tbody tr td:hover {
+    background-color: #FE8183;
+}
+.imagen_size {
+    width: 420px;
+    height: auto;
+}
+.imagen_centrar {
+    margin: 0 auto;
+    width: 420px;
+    height: auto;
+}
+.imagen_flotante_derecha {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+
+
+
+}
+.imagen_flotante_izquierda {
+    float: left;
+    padding-right: 10px;
+}
+.imagen_fondo {
+    background-image: url(../media/imagenes/100993_big-1280x720.jpg);
+    color: #FFFFFF;
+    background-size: 100% 100%;
+}
+.box_alpha {
+    background-color: hsla(0,0%,100%,0.67);
+    color: #42437B;
+}
+.imagen_redondeada {
+    width: 60%;
+    border-radius: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.imagen_filtros {
+    width: 250px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.filter_blur {
+    filter: blur(2px);
+}
+.filter_brillo {
+    filter: brightness(180%);
+}
+.filter_grises {
+    filter: grayscale(100%);
+}
+.filter_contraste {
+    filter: contrast(180%);
+}
+.filter_invert {
+    filter: invert(100%);
+}
+.filter_sepia {
+    filter: sepia(100%);
+}
+.filter_opacidad {
+    filter: opacity(30%);
+}
+.filter_saturacion {
+    filter: saturate(5);
+}
+.filter_sombra {
+    filter: drop-shadow(8px 8px 10px black);
+}
+#lista {
+    padding: 30px;
+}
+#marcador1 {
+}
+#VIDEO1 {
+    width: 70%;
+    height: auto;
+}
+.Vide_size {
+    width: 70%;
+    height: auto;
+}
+#form1 {
+    margin: 10px auto;
+    width: 60%;
+    background-color: hsla(27,100%,76%,1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#form1 label {
+    padding: 5px;
+    color: hsla(0,100%,56%,1.00);
+    font-weight: bold;
+    font-size: 16px;
+}
+#form1 input[type=text]  {
+    background-color: hsla(195,77%,35%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    padding: 10px;
+    margin: 5px auto;
+    width: 90%;
+}
+
+#form1 #submit {
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    background-color: hsla(212,69%,24%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    font-size: 16px;
+    font-weight: bold;
+}
+#form2 {
+    background-color: hsla(33,100%,79%,1.00);
+    color: hsla(359,100%,53%,1.00);
+    margin: 10px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    height: auto;
+}
+#form2 input[type=text] ,#form2 input[type=email]{
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+#form2 input[type=text]:focus , #form2 input[type=email]:focus{
+    background-color: hsla(186,28%,65%,1.00);
+    color: hsla(0,0%,100%,1.00);
+}
+#form2 select {
+    padding: 10px;
+    width: 100%;
+    background-color: hsla(27,48%,33%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    font-weight: bold;
+}
+#form2 #textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    resize: none;
+    color: hsla(0,0%,100%,1.00);
+    background-color: hsla(180,17%,34%,1.00);
+}
+#form2 input[type=submit]  {
+    width: 30%;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+    background-color: hsla(222,65%,29%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+#form2 label {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+}
+#form2 table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fuentes_1 {
+	font-family: 'Mali';
+}
+main section p {
+    margin: 20px;
+    font-family: "Louis George Cafe Light";
+    font-size: 18px;
+}
+main section h2 {
+    font-family: mali;
+}
+.image_chris {
+}
+.size_chris {
+    width: 35%;
+}
